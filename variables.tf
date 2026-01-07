@@ -5,10 +5,10 @@ variable "sesh-ami" {
 }
 variable "vm-size" {
   type = string
-  default = "t3.micro"
+  #default = "t3.micro"
 }
 
 variable "VMName" {
  type = string
- default = "Sesh-VM" 
+ #default = "Sesh-VM" 
 }
