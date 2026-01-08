@@ -12,3 +12,7 @@ variable "VMName" {
   type = string
   #default = "Sesh-VM" 
 }
+variable "novm" {
+  type = number
+  description = "this is for thenumber of vm to be created"
+}
