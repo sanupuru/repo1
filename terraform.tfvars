@@ -1,2 +1,2 @@
-vm-size = "t2.small"
-VMName = "sesh-day3"
+vm-size = "t3.micro"
+VMName = "sesh-vm-day3"
