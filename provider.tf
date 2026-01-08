@@ -6,14 +6,14 @@ terraform {
     }
   }
   #terraform tfstate file remote backend section
-backend "s3" {
-    bucket = "sesh-jan07-terraform"
-    key = "dev/sesh/terraform.tfstate"
-    encrypt = true
-    region= "us-west-1"
+  backend "s3" {
+    bucket         = "sesh-jan07-terraform"
+    key            = "dev/sesh/terraform.tfstate"
+    encrypt        = true
+    region         = "us-west-1"
     dynamodb_table = "sesh-locking-table"
 
-}
+  }
 }
 
 provider "aws" {

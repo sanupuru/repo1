@@ -1,7 +1,7 @@
 variable "sesh-ami" {
-    type = string
-    description = "this will store aws ny region ami id"
-    default = "ami-068c0051b15cdb816"
+  type        = string
+  description = "this will store aws ny region ami id"
+  default     = "ami-068c0051b15cdb816"
 }
 variable "vm-size" {
   type = string
@@ -9,6 +9,6 @@ variable "vm-size" {
 }
 
 variable "VMName" {
- type = string
- #default = "Sesh-VM" 
+  type = string
+  #default = "Sesh-VM" 
 }

@@ -1,6 +1,6 @@
 data "aws_vpc" "example" {
-    id = "vpc-07eede624774fec02"
-  
+  id = "vpc-07eede624774fec02"
+
 }
 # creating security group
 resource "aws_security_group" "allow_tls" {

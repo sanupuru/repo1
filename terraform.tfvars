@@ -1,2 +1,2 @@
 vm-size = "t3.micro"
-VMName = "sesh-vm-04"
+VMName  = "sesh-vm-04"
